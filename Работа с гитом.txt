@@ -1,0 +1,18 @@
+git status - проверка файлов 
+git add . - добавить все измененные файлы
+git commmit - m "комментарий" - создать коммит
+git branch - посмотреть существующие ветки
+git checkout - перейти в существующую ветку
+git checkout - b Uluk_1 - создать новую ветку и сразу перейти в нее
+git push "название удаленного соединения" "название ветки"- запушить ветку на на удаленный сервер
+git pull - получить все изменения с удаленного "общего" репозитория на свой локальный репозиторий
+
+
+Результат команды git push, если синхронизация не прошла, потому что сначала не была выполнена команда git pull:
+
+To gfxteam@lixer:blend4web.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'gfxteam@lixer:blend4web.git'
+To prevent you from losing history, non-fast-forward updates were rejected
+Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+'Note about fast-forwards' section of 'git push --help' for details. 
