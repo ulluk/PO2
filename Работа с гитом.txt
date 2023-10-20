@@ -10,11 +10,11 @@ git pull - получить все изменения с удаленного "�
 
 Результат команды git push, если синхронизация не прошла, потому что сначала не была выполнена команда git pull:
 
-To gfxteam@lixer:blend4web.git
+To gfx	team@lixer:blend4web.git
  ! [rejected]        master -> master (non-fast-forward)
 error: failed to push some refs to 'gfxteam@lixer:blend4web.git'
 To prevent you from losing history, non-fast-forward updates were rejected
 Merge the remote changes (e.g. 'git pull') before pushing again.  See the
 'Note about fast-forwards' section of 'git push --help' for details. 
 
-На этом все
+git branch -r - просмотр удаленных веток
